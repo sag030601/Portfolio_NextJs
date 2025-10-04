@@ -203,7 +203,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator
       <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         initial={{ opacity: 0, y: -20 }}
@@ -218,7 +218,7 @@ export default function Hero() {
           <span className="text-sm font-medium">Scroll Down</span>
           <ArrowDown className="w-5 h-5" />
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }
